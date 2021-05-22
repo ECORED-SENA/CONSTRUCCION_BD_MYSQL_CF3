@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal
       .titulo-principal__numero
-        .h3 1
+        .h3.texto-azul 1
       .h3 Caso de estudio
     figure.mb-5
       .video
@@ -46,22 +46,22 @@
       .col-lg-8
         p.mb-4 En ciencias de la computación un tipo de dato informático, o simplemente tipo, es un atributo de los datos que indica al ordenador (y/o al programador/programadora) sobre la clase de datos que se va a manejar. Esto incluye imponer restricciones en los datos, como qué valores pueden tomar y qué operaciones se pueden realizar.
         br
-        | <b>Los tipos de datos más comunes son:</b>
+        p.mb-4 <b>Los tipos de datos más comunes son:</b>
         ul.lista-ul
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.amarillo
             | Números enteros
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.amarillo
             | Números con signo (negativos)
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.amarillo
             | Números de coma flotante (decimales)
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.amarillo
             | Cadenas alfanuméricas (y unicodes)
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.amarillo
             | Estados, etc.
     p.mb-5 Un tipo de dato es un espacio en memoria con restricciones. Por ejemplo, el tipo "int" representa, generalmente, un conjunto de enteros de 32 bits, cuyo rango va desde el -2.147.483.648 al 2.147.483.647, así como las operaciones que se pueden realizar con los enteros, como son la suma, la resta, y la multiplicación. Los colores, por su parte, se representan como tres bytes denotando la cantidad de rojo, verde y azul, y una cadena de caracteres representando el nombre del color (en este caso, las operaciones permitidas incluyen la adición y la sustracción, pero no la multiplicación).
     .cajon.color-secundario.p-4.mb-5
@@ -154,22 +154,22 @@
       .col-lg-10
         ul.lista-ul
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.cyan
             p La clave primaria o Primary key, identifica de manera unívoca (única) a cada registro de una tabla.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.cyan
             p El valor que contiene la columna definida como Primary key, debe ser único.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.cyan
             p El valor debe ser Not Null (no permitirá valores nulos).
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.cyan
             p Una tabla puede tener más de un campo PK, a la que se le llamará <b>clave compuesta</b>.
           li 
-            i.fas.fa-check
+            i.fas.fa-check.me-4.cyan
             p Sea <b>simple o compuesta</b>, cada tabla solo podrá tener una clave primaria (Primary key).
           li
-            i.fas.fa-check
+            i.fas.fa-check.me-4.cyan
             p Es decir que solo habrá una única clave primaria de ese tipo. No se podrá crear otra combinación.
     .col-lg-9.mx-auto.mb-5
       h6.mb-4.text-center Ejemplo llave primaria
