@@ -127,10 +127,6 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
-        cargo: 'Diseño web y Producción Audiovisual',
-      },
-      {
         nombre: 'Walter Roa Serrano',
         cargo: 'Desarrollo Front-End',
       },
