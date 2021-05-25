@@ -174,26 +174,26 @@
           caption Figura 6: tipo de datos fecha
           thead
             tr
-              th Tamaño
+              th._50px Tamaño
               th Formato
           tbody
             tr
-              td 14
+              td._50px 14
               td AñoMesDiaHoraMinutoSegundo<br>aaaammddhhmmss
             tr
-              td 12
+              td._50px 12
               td AñoMesDiaHoraMinutoSegundo<br>aammddhhmmss
             tr
-              td 8
-              td AñoMesDia<br>aaaammdd
+              td._50px 8
+              td._50px AñoMesDia<br>aaaammdd
             tr
-              td 6
+              td._50px 6
               td AñoMesDia<br>aammdd
             tr
-              td 4
+              td._50px 4
               td AñoMes<br>aamm
             tr
-              td 2
+              td._50px 2
               td Año<br>aa
     h5.my-5 Tipos cadena
     .row.justify-content-between.align-items-center.mb-5
@@ -281,50 +281,50 @@
           caption Figura 8: ejemplo llave primaria
           thead
             tr
-              th.fondo_azul IdPaciente<i class="fas fa-sort-down ms-4"></i>
+              th.fondo_azul._50px IdPaciente
               th nombre
               th apellido
               th email
               th idpais
           tbody
             tr
-              td 1
+              td._50px 1
               td Jorge
               td Rodríguez
               td a@a.com
               td MEX
             tr
-              td 2
+              td._50px 2
               td Marcelo
               td López Llano
               td a@a.com
               td MEX
             tr
-              td 3
+              td._50px 3
               td Kari
               td Lopreta
               td a@a.com
               td COL
             tr
-              td 4
+              td._50px 4
               td Juan Manuel
               td Loperfano
               td a@a.com
               td ARG
             tr
-              td 5
+              td._50px 5
               td Juan Manuel
               td Pérez Lozano
               td a@a.com
               td ESP
             tr
-              td 6
+              td._50px 6
               td Karim
               td Berragas
               td a@a.com
               td PER
             tr
-              td 7
+              td._50px 7
               td SAUL
               td López Gómez
               td a@a.com
@@ -352,11 +352,11 @@
           caption Figura 9: ejemplo <i>Foreign key</i>
           thead
             tr
-              th.fondo_azul IdPaciente<i class="fas fa-sort-down ms-4"></i>
+              th.fondo_azul IdPaciente
               th nombre
               th apellido
               th email
-              th.fondo_amarillo idpais<i class="fas fa-sort-down ms-4"></i>
+              th.fondo_amarillo idpais
           tbody
             tr
               td 1
