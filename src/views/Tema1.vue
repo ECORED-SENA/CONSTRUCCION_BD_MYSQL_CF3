@@ -32,7 +32,7 @@
       img(src="@/assets/curso/tema1/t1-f2.svg")
     #t_1_2.titulo-segundo.mt-5
       .h4 1.2	Modelo físico
-    p.my-5 Para la construcción del modelo de datos físico se utilizará la herramienta MySQL Workbeanch previamente instalada.
+    p.my-5 Para la construcción del modelo de datos físico se utilizará la herramienta MySQL Workbench previamente instalada.
     h5.mb-4.text-center Construcción de un nuevo modelo
     .col-lg-10.mx-auto
       img(src="@/assets/curso/tema1/t1-i2.jpg")
@@ -511,7 +511,7 @@
           img(src="@/assets/curso/tema1/10.svg").mb-5
     #t_1_3.titulo-segundo.mt-5
       .h4 1.3 Creando el modelo entidad relación
-    p.mb-5 Desde Workbeanch una vez creado el nuevo modelo se puede empezar a agregar los objetos que se necesiten.
+    p.mb-5 Desde Workbench una vez creado el nuevo modelo se puede empezar a agregar los objetos que se necesiten.
     .col-lg-9.mx-auto.mb-5
       h6.mb-4.text-center Agregando un nuevo diagrama
       img(src="@/assets/curso/tema1/t1-i3.jpg")
