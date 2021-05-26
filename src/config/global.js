@@ -95,7 +95,7 @@ export default {
       },
       {
         nombre: 'Henry Eduardo Bastidas Paruma',
-        cargo: 'Instructor',
+        cargo: 'Experto temático, instructor',
         centro: 'Centro de Teleinformática y Producción industrial',
         regional: 'Regional Cauca',
       },
@@ -106,13 +106,8 @@ export default {
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Martha Isabel Martínez Vargas',
-        cargo: 'Productora audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-      },
-      {
-        nombre: 'José Gabriel Ortíz Abella',
-        cargo: 'Corrector de estilo',
+        nombre: 'José Gabriel Ortíz Abella, Martha Isabel Martínez Vargas',
+        cargo: 'Corrección de estilo',
         centro: 'Centro para la Industria de la Comunicación Gráfica.',
         regional: 'Regional Distrito Capital',
       },
@@ -127,6 +122,14 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
+        nombre: 'Zuleidy Maria Ruiz Torres, Wilson Andrés Arenales Caceres, Gilberto Junior Rodriguez Rodriguez, Daniela Muñoz Bedoya, Oleg Litvin',
+        cargo: 'Producción audiovisual',
+      }
+      {
+        nombre: 'Carlos Julián Ramírez Benítez, Daniel Ricardo Mutis Gómez',
+        cargo: 'Diseño web',
+      },
+      {
         nombre: 'Walter Roa Serrano',
         cargo: 'Desarrollo Front-End',
       },
@@ -137,8 +140,8 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación de diseño y contenido',
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
@@ -209,6 +212,11 @@ export default {
       texto: 'Diseño de bases de datos relacionales',
       tipo: 'Video',
       link: 'https://youtu.be/jRqF2bDxZc0',
+    },
+    {
+      texto: 'Caso de estudio: Import Tech'
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=2B_GcMxL9fg'
     },
   ],
 }
