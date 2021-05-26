@@ -122,9 +122,10 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
-        nombre: 'Zuleidy Maria Ruiz Torres, Wilson Andrés Arenales Caceres, Gilberto Junior Rodriguez Rodriguez, Daniela Muñoz Bedoya, Oleg Litvin',
+        nombre:
+          'Zuleidy Maria Ruiz Torres, Wilson Andrés Arenales Caceres, Gilberto Junior Rodriguez Rodriguez, Daniela Muñoz Bedoya, Oleg Litvin',
         cargo: 'Producción audiovisual',
-      }
+      },
       {
         nombre: 'Carlos Julián Ramírez Benítez, Daniel Ricardo Mutis Gómez',
         cargo: 'Diseño web',
@@ -214,9 +215,9 @@ export default {
       link: 'https://youtu.be/jRqF2bDxZc0',
     },
     {
-      texto: 'Caso de estudio: Import Tech'
+      texto: 'Caso de estudio: Import Tech',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=2B_GcMxL9fg'
+      link: 'https://www.youtube.com/watch?v=2B_GcMxL9fg',
     },
   ],
 }
