@@ -96,9 +96,9 @@
       .col-lg-6
         p.fondo_azul.p-4.mb-4 <b>TinyInt:</b> es un número entero con o sin signo. Con signo el rango de valores válidos va desde -128 a 127. Sin signo, el rango de valores es de 0 a 255.
         p.fondo_azul.p-4.mb-4 <b>Bit o Bool:</b> un número entero que puede ser 0 o 1.
-        p.fondo_azul.p-4.mb-4 <b>SmallInt:</b> número entero con o sin signo. Con signo el rango de valores va desde -32768 a 32767. Sin signo, el rango de valores es de 0 a 65535.
-        p.fondo_azul.p-4.mb-4 <b>MediumInt:</b> número entero con o sin signo. Con signo el rango de valores va desde -8.388.608 a 8.388.607. Sin signo el rango va desde 0 a16777215.
-        p.fondo_azul.p-4.mb-4 <b>Integer, Int:</b> número entero con o sin signo. Con signo el rango de valores va desde -2147483648 a 2147483647. Sin signo el rango va desde 0 a 429.4967.295.
+        p.fondo_azul.p-4.mb-4 <b>SmallInt:</b> número entero con o sin signo. Con signo el rango de valores va desde -32.768 a 32.767. Sin signo, el rango de valores es de 0 a 65.535.
+        p.fondo_azul.p-4.mb-4 <b>MediumInt:</b> número entero con o sin signo. Con signo el rango de valores va desde -8.388.608 a 8.388.607. Sin signo el rango va desde 0 a 16.777.215.
+        p.fondo_azul.p-4.mb-4 <b>Integer, Int:</b> número entero con o sin signo. Con signo el rango de valores va desde -2.147.483.648 a 2.147.483.647. Sin signo el rango va desde 0 a 429.4967.295.
       .col-lg-6
         p.fondo_azul.p-4.mb-4 <b>BigInt:</b> número entero con o sin signo. Con signo el rango de valores va desde -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807. Sin signo el rango va desde 0 a 18.446.744.073.709.551.615.
         p.fondo_azul.p-4.mb-4 <b>Float:</b> número pequeño en coma flotante de precisión simple. Los valores válidos van desde -3.402823466E+38 a -1.175494351E-38, 0 y desde 1.175494351E-38 a 3.402823466E+38.
