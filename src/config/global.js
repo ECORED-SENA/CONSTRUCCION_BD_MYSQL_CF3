@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Diseño modelo entidad',
+            titulo: 'Diseño modelo entidad relación',
             hash: 't_1_1',
           },
           {
@@ -95,8 +95,8 @@ export default {
       },
       {
         nombre: 'Henry Eduardo Bastidas Paruma',
-        cargo: 'Experto temático, instructor',
-        centro: 'Centro de Teleinformática y Producción industrial',
+        cargo: 'Experto temático - instructor',
+        centro: 'Centro de Teleinformática y Producción Industrial',
         regional: 'Regional Cauca',
       },
       {
@@ -106,9 +106,15 @@ export default {
         regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'José Gabriel Ortíz Abella, Martha Isabel Martínez Vargas',
+        nombre: 'Martha Isabel Martínez Vargas',
+        cargo: 'Productora audiovisual',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
         cargo: 'Corrección de estilo',
-        centro: 'Centro para la Industria de la Comunicación Gráfica.',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital',
       },
     ],
@@ -122,17 +128,26 @@ export default {
         cargo: 'Soporte organizacional',
       },
       {
-        nombre:
-          'Zuleidy Maria Ruiz Torres, Wilson Andrés Arenales Caceres, Gilberto Junior Rodriguez Rodriguez, Daniela Muñoz Bedoya, Oleg Litvin',
-        cargo: 'Producción audiovisual',
-      },
-      {
-        nombre: 'Carlos Julián Ramírez Benítez, Daniel Ricardo Mutis Gómez',
+        nombre: ['Carlos Julián Ramírez Benítez', 'Daniel Ricardo Mutis Gómez'],
         cargo: 'Diseño web',
       },
       {
+        nombre: [
+          'Daniela Muñoz Bedoya',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Oleg Litvin',
+          'Wilson Andrés Arenales Caceres',
+          'Zuleidy Maria Ruiz Torres',
+        ],
+        cargo: 'Producción audiovisual',
+      },
+      {
         nombre: 'Walter Roa Serrano',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
+      },
+      {
+        nombre: 'Jenny Paola Montillo Gélvez',
+        cargo: 'Validación de diseño y contenido',
       },
       {
         centro: 'Centro Industrial del Diseño y la Manufactura',
@@ -142,8 +157,8 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación de diseño y contenido',
-        centro: 'Centro de comercio y servicios',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
     ],
@@ -186,7 +201,7 @@ export default {
     {
       termino: 'MySQL',
       significado:
-        'My Structured Query Language o Lenguaje de consulta estructurado.',
+        '<span style="display:none">_</span>My Structured Query Language o Lenguaje de consulta estructurado.',
     },
     {
       termino: 'Registro',
@@ -200,7 +215,7 @@ export default {
     },
     {
       termino: 'SGDB',
-      significado: 'sistema de gestión de base de datos',
+      significado: 'sistema de gestión de base de datos.',
     },
     {
       termino: 'Tabla - entidad',
@@ -208,16 +223,5 @@ export default {
         'la entidad es cualquier clase de objeto o conjunto de elementos presentes o no, en un contexto determinado dado por el sistema de información.',
     },
   ],
-  complementario: [
-    {
-      texto: 'Diseño de bases de datos relacionales',
-      tipo: 'Video',
-      link: 'https://youtu.be/jRqF2bDxZc0',
-    },
-    {
-      texto: 'Caso de estudio: Import Tech',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=2B_GcMxL9fg',
-    },
-  ],
+  complementario: [],
 }

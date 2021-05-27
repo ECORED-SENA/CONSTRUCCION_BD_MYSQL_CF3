@@ -13,7 +13,7 @@
       .h4 1.1	Diseño modelo entidad relación
     p.my-5 Para el desarrollo del modelo se utilizará la herramienta Draw.io, a la cual pueden acceder en línea o descargar a sus computadoras sin ningún problema toda vez que es de licencia GPL, a través del link.
     .col-lg-4
-      a.anexo(:href="obtenerLink('https://app.diagrams.net/')" target="_blank")
+      a.anexo(href="https://app.diagrams.net/" target="_blank")
         .anexo__icono
           img(src="@/assets/template/icono-link.svg")
         .anexo__texto
@@ -21,19 +21,20 @@
     p.my-5 El modelo entidad relación, introducido por Peter Chen en 1976, es el más utilizado para el diseño conceptual de bases de datos; este modelo está formado por un conjunto de conceptos que permiten describir la realidad mediante un conjunto de representaciones gráficas y lingüísticas.
     h5.mb-5 Los siguientes son los elementos a utilizar para representar el modelo:
     .col-lg-8.mx-auto
+      p.mb-5.text-center Elementos para la representación gráfica del modelo entidad relación
       img(src="@/assets/curso/tema1/t1-f1.svg")
     p.my-5 A continuación, se ilustra cómo se puede construir el modelo entidad relación con la herramienta propuesta.
     h5.mb-4.text-center Construcción del modelo entidad - relación
     .col-lg-10.mx-auto
       img(src="@/assets/curso/tema1/t1-i1.jpg")
-    p.my-5 Como se evidencia en la figura 2, se deben seleccionar los componentes a utilizar y se llevan al área de trabajo donde se crean las entidades con sus respectivos atributos y sus relaciones.
+    p.my-5 Como se evidencia en la figura Construcción del modelo entidad - relación, se deben seleccionar los componentes a utilizar y se llevan al área de trabajo donde se crean las entidades con sus respectivos atributos y sus relaciones.
     h5.mb-4.text-center Diseño modelo entidad - relación
     .col-lg-10.mx-auto
       img(src="@/assets/curso/tema1/t1-f2.svg")
     #t_1_2.titulo-segundo.mt-5
       .h4 1.2	Modelo físico
     p.my-5 Para la construcción del modelo de datos físico se utilizará la herramienta MySQL Workbench previamente instalada.
-    h5.mb-4.text-center Construcción de un nuevo modelo
+    h5.mb-4.text-center Creación de un nuevo modelo
     .col-lg-10.mx-auto
       img(src="@/assets/curso/tema1/t1-i2.jpg")
     p.my-5 Para crear el modelo físico se hace en el menú principal Archivo (File) y en las opciones del menú se elige la opción New Model.
@@ -68,7 +69,7 @@
       p Este es un concepto propio de la informática y, más específicamente, de los lenguajes de programación, aunque también se encuentra relacionado con nociones similares de la matemática y la lógica.
     .row.mb-5.justify-content-between.align-items-start
       .col-lg-8
-        p.mb-4 En un sentido amplio, un tipo de datos define un conjunto de valores y las operaciones sobre esos valores. Casi todos los lenguajes de programación explícitamente incluyen la notación del tipo de datos, aunque lenguajes diferentes pueden usar terminologías diferentes. La mayor parte de los lenguajes de programación permiten al programador definir tipos de datos adicionales, normalmente combinando múltiples elementos de otros tipos y definiendo las operaciones del nuevo tipo de dato.<br><br><b>Por ejemplo,</b> un programador puede crear un nuevo tipo de dato llamado "Persona", contemplando que el dato interpretado como Persona incluya un nombre y una fecha de nacimiento.
+        p.mb-4 En un sentido amplio, un tipo de datos define un conjunto de valores y las operaciones sobre esos valores. Casi todos los lenguajes de programación explícitamente incluyen la notación del tipo de datos, aunque lenguajes diferentes pueden usar terminologías diferentes. La mayor parte de los lenguajes de programación permiten al programador definir tipos de datos adicionales, normalmente combinando múltiples elementos de otros tipos y definiendo las operaciones del nuevo tipo de dato. <b>Por ejemplo,</b> un programador puede crear un nuevo tipo de dato llamado "Persona", contemplando que el dato interpretado como Persona incluya un nombre y una fecha de nacimiento.
       .col-auto.mx-auto
         img(src="@/assets/curso/tema1/t1-f4.svg").max75.mx-auto
     p Un tipo de dato puede ser también visto como una limitación impuesta en la interpretación de los datos en un sistema de tipificación, describiendo la representación, la interpretación y la estructura de los valores u objetos almacenados en la memoria del ordenador. El sistema de tipificación usa información de los tipos de datos para comprobar la verificación de los programas que acceden o manipulan los datos.
@@ -76,14 +77,14 @@
     p.mb-5 <b>Los tipos de datos que puede haber en un campo, se pueden agrupar en tres grandes grupos:</b>
     .row.justify-content-between.mb-5.px-5
       .col-lg-3
-      .col-lg-2.mx-auto
-        img(src="@/assets/curso/tema1/t1-f5.svg").mb-4.max75.mx-auto
+      .col-lg-2.mx-auto.max75.mx-auto
+        img(src="@/assets/curso/tema1/t1-f5.svg").mb-4
         h6.text-center Tipos numéricos
-      .col-lg-2.mx-auto
-        img(src="@/assets/curso/tema1/t1-f6.svg").mb-4.max75.mx-auto
+      .col-lg-2.mx-auto.max75.mx-auto
+        img(src="@/assets/curso/tema1/t1-f6.svg").mb-4
         h6.text-center Tipos de fecha
-      .col-lg-2.mx-auto
-        img(src="@/assets/curso/tema1/t1-f7.svg").mb-4.max75.mx-auto
+      .col-lg-2.mx-auto.max75.mx-auto
+        img(src="@/assets/curso/tema1/t1-f7.svg").mb-4
         h6.text-center Tipos de cadena
       .col-lg-3
     h5.mb-5 Tipos numéricos
@@ -108,11 +109,10 @@
       h6.mb-4.text-center Tipo de datos numéricos  
       .tabla-a.color-acento-botones.mb-5 
         table
-          caption Figura 5: tipo de datos numéricos
           thead
             tr
-              th Tipo de campo
-              th Tamaño de almacenamiento
+              th Tipo de Campo
+              th Tamaño de Almacenamiento
           tbody
             tr
               td TINYINT
@@ -163,15 +163,14 @@
       .col-lg-6
         p.fondo_azul.p-4.mb-4 <b>Date:</b> tipo fecha, almacena una fecha. El rango de valores va desde el 1 de enero del 1001 al 31 de diciembre de 9999. El formato de almacenamiento es de año-mes-día
         p.fondo_azul.p-4.mb-4 <b>DateTime:</b> combinación de fecha y hora. El rango de valores va desde el 1 de enero del 1001 a las 0 horas, 0 minutos y 0 segundos al 31 de diciembre del 9999 a las 23 horas, 59 minutos y 59 segundos. El formato de almacenamiento es de año-mes-dia horas-minutos-segundos.
-        p.fondo_azul.p-4.mb-4 <b>TimeStamp:</b> combinación de fecha y hora. El rango va desde el 1 de enero de 1970 al año 2037. El formato de almacenamiento depende del tamaño del campo:
+        p.fondo_azul.p-4.mb-4 <b>TimeStamp:</b> combinación de fecha y hora. El rango va desde el 1 de enero de 1970 al año 2037. El formato de almacenamiento depende del tamaño del campo.
       .col-lg-6
-        p.fondo_azul.p-4.mb-4 <b>Time:</b> almacena una hora. El rango de horas va desde - 838 horas, 59 minutos y 59 segundos a 838, 59 minutos y 59 segundos. El formato de almacenamiento es de 'HH:MM: SS'.
+        p.fondo_azul.p-4.mb-4 <b>Time:</b> almacena una hora. El rango de horas va desde - 838 horas, 59 minutos y 59 segundos a 838 horas, 59 minutos y 59 segundos. El formato de almacenamiento es de 'HH:MM: SS'.
         p.fondo_azul.p-4.mb-4 <b>Year:</b> almacena un año. El rango de valores permitidos van desde el año 1901 al año 2155. El campo puede tener tamaño dos o tamaño 4 dependiendo de si se quiere almacenar el año con dos o cuatro dígitos.
     .col-lg-7.mx-auto
       h6.mb-4.text-center Tipo de datos fecha  
       .tabla-a.color-acento-botones.mb-5 
         table
-          caption Figura 6: tipo de datos fecha
           thead
             tr
               th._50px Tamaño
@@ -195,7 +194,7 @@
             tr
               td._50px 2
               td Año<br>aa
-    h5.my-5 Tipos cadena
+    h5.my-5 Tipos de cadena
     .row.justify-content-between.align-items-center.mb-5
       .col-auto.mx-auto
         img(src="@/assets/curso/tema1/t1-f12.svg")
@@ -215,14 +214,13 @@
         p.fondo_azul.p-4.mb-4 <b>Enum:</b> campo que puede tener un único valor de una lista que se especifica. El tipo Enum acepta hasta 65.535 valores distintos.
         p.fondo_azul.p-4.mb-4 <b>Set:</b> un campo que puede contener ninguno, uno o varios valores de una lista. Esta puede tener un máximo de 64 valores.
     .col-lg-9.mx-auto
-      h6.mb-4.text-center Tipo de datos cadena  
+      h6.mb-4.text-center Tipos de datos cadena  
       .tabla-a.color-acento-botones.mb-5 
         table
-          caption Figura 7: tipo de datos cadena
           thead
             tr
-              th Tipo de campo
-              th Tamaño de almacenamiento
+              th Tipo de Campo
+              th Tamaño de Almacenamiento
           tbody
             tr
               td CHAR(n)
@@ -278,7 +276,6 @@
       h6.mb-4.text-center Ejemplo llave primaria
       .tabla-a.color-acento-botones.mb-5 
         table
-          caption Figura 8: ejemplo llave primaria
           thead
             tr
               th.fondo_azul._50px IdPaciente
@@ -347,75 +344,7 @@
             p Una tabla puede tener más de un campo FK.
     .col-lg-9.mx-auto.mb-5
       h6.mb-4.text-center Ejemplo <i>Foreign key</i>
-      .tabla-a.color-acento-botones.mb-5 
-        table
-          caption Figura 9: ejemplo <i>Foreign key</i>
-          thead
-            tr
-              th.fondo_azul IdPaciente
-              th nombre
-              th apellido
-              th email
-              th.fondo_amarillo idpais
-          tbody
-            tr
-              td 1
-              td Jorge
-              td Rodríguez
-              td a@a.com
-              td MEX
-            tr
-              td 2
-              td Marcelo
-              td López Llano
-              td a@a.com
-              td MEX
-            tr
-              td 3
-              td Kari
-              td Lopreta
-              td a@a.com
-              td COL
-            tr
-              td 4
-              td Juan Manuel
-              td Loperfano
-              td a@a.com
-              td ARG
-            tr
-              td 5
-              td Juan Manuel
-              td Pérez Lozano
-              td a@a.com
-              td ESP
-            tr
-              td 6
-              td Karim
-              td Berragas
-              td a@a.com
-              td PER
-            tr
-              td 7
-              td SAUL
-              td López Gómez
-              td a@a.com
-              td CHI
-      .tabla-a.color-acento-botones.mb-5 
-          table
-            thead
-              tr
-                th.fondo_amarillo Idpais<i class="fas fa-sort-down ms-4"></i>
-                th pais
-            tbody
-              tr
-                td MEX
-                td México
-              tr
-                td COL
-                td Colombia
-              tr
-                td ARG
-                td Argentina
+      img(src="@/assets/curso/tema1/tabla9.svg").mb-5
     h5.my-5 Conceptos del modelo entidad relación
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Registros").px-4.justify-content-between.align-items-center
@@ -450,7 +379,7 @@
           img(src="@/assets/curso/tema1/6.svg").mb-5
       .row(titulo="Entidades débiles").px-4.justify-content-between.align-items-center
         .col-lg-9.px-5.mb-5
-          p Son entidades débiles a las tablas auxiliares de una tabla principal a la que completan o complementan con la información de sus registros relacionados. Por ejemplo, también son consideradas entidades débiles las tablas intermedias que sirven para compartir información de varias tablas principales.
+          p Son entidades débiles las tablas auxiliares de una tabla principal a la que completan o complementan con la información de sus registros relacionados. Por ejemplo, también son consideradas entidades débiles las tablas intermedias que sirven para compartir información de varias tablas principales.
         .col-auto.max75.mx-auto
           img(src="@/assets/curso/tema1/7.svg").mb-5
       .row(titulo="Restricciones del MER").px-4.justify-content-between.align-items-center
@@ -471,7 +400,7 @@
                 li 
                   | ●	No hay noción de orden entre las tuplas o entre los atributos.
                 li 
-                  | ●	Toda relación debe tener una llave primaria 1.
+                  p ●	Los tributos de la llave primaria <b>no</b> pueden ser nulos.
         .col-auto.max75.mx-auto
           img(src="@/assets/curso/tema1/8.svg").mb-5
       .row(titulo="Llaves primarias").px-4.justify-content-between.align-items-center
