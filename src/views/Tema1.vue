@@ -21,7 +21,7 @@
     p.my-5 El modelo entidad relación, introducido por Peter Chen en 1976, es el más utilizado para el diseño conceptual de bases de datos; este modelo está formado por un conjunto de conceptos que permiten describir la realidad mediante un conjunto de representaciones gráficas y lingüísticas.
     h5.mb-5 Los siguientes son los elementos a utilizar para representar el modelo:
     .col-lg-8.mx-auto
-      p.mb-5.text-center Elementos para la representación gráfica del modelo entidad relación
+      h5.mb-4.text-center Elementos para la representación gráfica del modelo entidad relación
       img(src="@/assets/curso/tema1/t1-f1.svg")
     p.my-5 A continuación, se ilustra cómo se puede construir el modelo entidad relación con la herramienta propuesta.
     h5.mb-4.text-center Construcción del modelo entidad - relación
@@ -65,7 +65,7 @@
             i.fas.fa-check.me-4.amarillo
             | Estados, etc.
     p.mb-5 Un tipo de dato es un espacio en memoria con restricciones. Por ejemplo, el tipo "int" representa, generalmente, un conjunto de enteros de 32 bits, cuyo rango va desde el -2.147.483.648 al 2.147.483.647, así como las operaciones que se pueden realizar con los enteros, como son la suma, la resta, y la multiplicación. Los colores, por su parte, se representan como tres bytes denotando la cantidad de rojo, verde y azul, y una cadena de caracteres representando el nombre del color (en este caso, las operaciones permitidas incluyen la adición y la sustracción, pero no la multiplicación).
-    .cajon.color-secundario.p-4.mb-5
+    .cajon.color-secundario.fondo_azul.p-4.mb-5
       p Este es un concepto propio de la informática y, más específicamente, de los lenguajes de programación, aunque también se encuentra relacionado con nociones similares de la matemática y la lógica.
     .row.mb-5.justify-content-between.align-items-start
       .col-lg-8
@@ -278,7 +278,7 @@
         table
           thead
             tr
-              th.fondo_azul._50px IdPaciente
+              th.fondo_azul._50px IdPaciente <i class="fas fa-sort-down"></i>
               th nombre
               th apellido
               th email
@@ -346,7 +346,7 @@
       h6.mb-4.text-center Ejemplo <i>Foreign key</i>
       img(src="@/assets/curso/tema1/tabla9.svg").mb-5
     h5.my-5 Conceptos del modelo entidad relación
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo_azul")
       .row(titulo="Registros").px-4.justify-content-between.align-items-center
         .col-lg-9.px-5.mb-5
           p Guardan una serie de características similares o que pueden ser agrupados o clasificados dadas sus características comunes en grupos bien delimitados, en términos de abstracción como la extensión de la base de datos. Por ejemplo, es la lista de usuarios de una biblioteca, la lista de productos con sus características, la lista de tipos de documentos y su definición.

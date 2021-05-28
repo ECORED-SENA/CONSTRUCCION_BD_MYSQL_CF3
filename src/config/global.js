@@ -95,7 +95,7 @@ export default {
       },
       {
         nombre: 'Henry Eduardo Bastidas Paruma',
-        cargo: 'Experto temático - instructor',
+        cargo: 'Experto temático - Instructor',
         centro: 'Centro de Teleinformática y Producción Industrial',
         regional: 'Regional Cauca',
       },
@@ -134,9 +134,9 @@ export default {
       {
         nombre: [
           'Daniela Muñoz Bedoya',
-          'Gilberto Junior Rodriguez Rodriguez',
+          'Gilberto Junior Rodríguez Rodríguez',
           'Oleg Litvin',
-          'Wilson Andrés Arenales Caceres',
+          'Wilson Andrés Arenales Cáceres',
           'Zuleidy Maria Ruiz Torres',
         ],
         cargo: 'Producción audiovisual',
@@ -167,7 +167,8 @@ export default {
     {
       referencia:
         'Carrión, J. (2017). Diferencia entre datos, información y conocimiento.',
-      link: '/downloads/JCarrion-DDIyC.pdf',
+      link:
+        'http://iibi.unam.mx/voutssasmt/documentos/dato%20informacion%20conocimiento.pdf',
     },
     {
       referencia:
@@ -223,5 +224,5 @@ export default {
         'la entidad es cualquier clase de objeto o conjunto de elementos presentes o no, en un contexto determinado dado por el sistema de información.',
     },
   ],
-  complementario: [],
+  //complementario: [],
 }
