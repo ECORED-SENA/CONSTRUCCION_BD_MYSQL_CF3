@@ -224,5 +224,5 @@ export default {
         'la entidad es cualquier clase de objeto o conjunto de elementos presentes o no, en un contexto determinado dado por el sistema de información.',
     },
   ],
-  //complementario: [],
+  complementario: [],
 }

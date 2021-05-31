@@ -8,7 +8,7 @@
       .h3 Caso de estudio
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2B_GcMxL9fg" title="Caso de estudio: Import Tech" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ih7CYH73mrM" title="Caso de estudio: Import Tech" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_1_1.titulo-segundo
       .h4 1.1	Diseño modelo entidad relación
     p.my-5 Para el desarrollo del modelo se utilizará la herramienta Draw.io, a la cual pueden acceder en línea o descargar a sus computadoras sin ningún problema toda vez que es de licencia GPL, a través del link.
